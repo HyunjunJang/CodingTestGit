@@ -2,9 +2,11 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        TwoSecret twoSecret = new TwoSecret();
-        String answer = twoSecret.sol("aukks", "wbqd", 5);
-        // sol 메소드의 반환값인 ansarr을 사용하여 원하는 작업 수행
-        System.out.println("결과: " + answer); // 결과 출력
+        DataAnalysis datass = new DataAnalysis();
+        int[][] data = {{1, 20300104, 100, 80}, {2, 20300804, 847, 37}, {3, 20300401, 10, 8}};
+        int[][] answer = {};
+        answer = datass.solution(data,
+        "date", 20300501, "remain");
+        System.out.println("answer = " + answer.toString());
     }
 }
