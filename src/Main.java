@@ -1,12 +1,15 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        DataAnalysis datass = new DataAnalysis();
-        int[][] data = {{1, 20300104, 100, 80}, {2, 20300804, 847, 37}, {3, 20300401, 10, 8}};
-        int[][] answer = {};
-        answer = datass.solution(data,
-        "date", 20300501, "remain");
-        System.out.println("answer = " + answer.toString());
+//        String[] q = {"joy", "brad", "alessandro", "conan", "david"};
+//        String[] p = {"ajoy b", "b a", "c a", "a c", "a c", "c a"};
+//        MaxPresident com = new MaxPresident();
+//        int[] plz = com.friend_pre_index(q,p);
+//        System.out.println("plz = " + Arrays.toString(plz));
+        String a = "hyunjun jun";
+        String b = "jun ";
+        System.out.println(a.indexOf(b));
     }
 }
